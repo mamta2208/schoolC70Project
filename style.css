@@ -1,53 +1,90 @@
-body{
-    text-align: center;
-    color: silver;
-}
-#video iframe{
-    width:100%
-  
-}
-#map iframe{
-    width: 50%;
-    
+html {
+ scroll-behavior: smooth;
 }
 
-h3{
-    margin-right: 250px;
-    color: darkcyan;
-}
-h4{
-    margin-right: 250px;
-    color: darkcyan;
-}
-.contact_1{
-    margin-right: 250px;
-}
-.row::after{
-    cotent: "";
-    clear: both;
-    display: table;
-    margin-left: 10px;
-}
-.travel_mainDiv{
+#map iframe
+{
+    width: 50%;
     float: left;
-    width: 33.33%;
-    padding: 5px;
-    border: 1px solid #c7c7c7; 
+    padding-top: 5px;
 }
-.travel_mainDiv img{
-    width=100%;
-    height: 300px;
+
+.contact_1 h3
+{
+    display: inline;
 }
-.travel_mainDiv hr{
-    width: 100%
+.contact_1 a
+{
+    text-shadow: none;
 }
-.travel_mainDiv h5,.travel_mainDiv p{
-    margin-left: 20px;
+
+#footer{
+  height: 20px;
+  background-color:white;
+  }
+
+input
+{
+    background: grey
 }
-#achivementsID{
-    padding-bottom: 10px;
+
+.announcement{
+background-color:#337ab7;
+width: 100%;
+height: 30px;
 }
-.movie_head{
+
+#marqueeStyle{
+  width:100%;
+  direction:right;
+  height:100px;
+  color: beige;
+  font-size:120%;
+}
+
+#video{
+  width:100%;
+  height:500px;
+  border: none;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.travel_mainDiv
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img
+{
+  width: 100%;
+  height:300px;
+} 
+
+.travel_mainDiv hr
+{
+    width: 100%; 
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p
+{
+margin-left: 20px;
+}
+
+#achievementsID{
+ padding-bottom: 10px;
+}
+
+.movie_head
+{
     font-size: 20px;
     padding: 6px 22px;
     border-radius: 10px;
@@ -55,15 +92,50 @@ h4{
     width: 100%;
     display: inline-block;
 }
-.movie_head i{
-    float:right;
+
+.movie_head i
+{
+float: right;
 }
-.movie_text span{
-    color:orange;
+
+.movie_text span
+{
+color: #ff7700;
 }
-h6{
-    margin-left: 350px;
+
+.environment_li
+{
+  margin-top: 13px;
 }
-#img5{
-    margin-left: 300px;
+
+.environment_li h4
+{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.environment_li img
+{
+  border-radius: 25px;
+  height: 250px;
+}
+
+.environment_li p
+{
+  margin-top:10px;
+}
+
+.header_entrepreneur
+{
+  line-height: 2;
+}
+
+.book
+{
+  cursor: pointer;
+}
+
+.book hr
+{
+  margin-bottom: 10px;
 }
